@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Java Puzzle Unlock</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body { font-family: Arial, sans-serif; background: #111; color: #eee; text-align: center; padding: 30px; }
+input, button { padding: 10px; font-size: 1em; margin-top: 10px; }
+#status { margin-top: 20px; font-weight: bold; }
+pre { text-align:left; max-width:500px; margin:auto; background:#222; padding:10px; border-radius:8px; white-space:pre-wrap; }
+</style>
+</head>
+<body>
+
+<h1>🧩 Space Puzzle Unlock</h1>
+<p>Solve the riddle to unlock the PDF files.</p>
+
+<pre>
+MOONLIGHT LEDGER — A RIDDLE OF TEA & THRUST
+
+A quiet rover kissed the sleeping Moon;
+the nation smiled — its price a common tune.
+Two cups passed in many palms, a simple sum,
+yet from such sips we bought a cosmic drum.
+
+Find the name that made the little leap,
+a hyphen binds earth-numbered words it keeps.
+Bend the vowels to secrets, not to sound,
+then braid the letters, close them, turn around.
+
+Read the whole as if the world were glass:
+what once was forward now must backward pass.
+That mirrored cipher, exact and bold,
+is the key — to open what we hold.
+</pre>
+
+<input type="text" id="answer" placeholder="Enter answer here">
+<button id="unlockBtn">Unlock</button>
+
+<div id="status"></div>
+<div id="downloads" style="margin-top:20px;"></div>
+
+<!-- External JS -->
+<script src="crypto-js.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
